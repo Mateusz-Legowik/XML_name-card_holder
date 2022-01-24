@@ -12,7 +12,7 @@ public class xmlDOMReaderTest {
 
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
-			Document document = builder.parse("zad1.xml");
+			Document document = builder.parse("info.xml");
 			Element root = document.getDocumentElement();
 			Node textNode = root.getFirstChild();
 //			Node textNode = root.getLastChild();
