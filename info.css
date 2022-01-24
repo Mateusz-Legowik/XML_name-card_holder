@@ -1,0 +1,39 @@
+wizytownik {
+   font-size: 12pt;
+   margin: 10px;
+   line-height: 1.5em;
+}
+
+wizytowka {
+   border-style: solid;
+   border-width: 2px;
+   display: block;
+   float: left;
+   padding: 10px;
+}
+
+imie,
+nazwisko {
+   color: green;
+   font-size: 15pt;
+   font-weight: bold;
+}
+
+stanowisko {
+   color: red;
+   display: block;
+}
+
+telefon_kontaktowy {
+   color: rgb(47, 22, 189);
+   font-size: 13pt;
+   font-weight: bold;
+}
+
+nazwa_firmy,
+adres_email,
+adres_firmy,
+logo {
+   font-family: Verdana, sans-serif;
+   display: block;
+}

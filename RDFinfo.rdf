@@ -1,0 +1,43 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <rdf:Description rdf:about="http://sw.edu/#WIZYTÓWKA">
+      <rdf:type rdf:resource="http://sw.edu/#OSOBA" />
+      <rdf:type rdf:resource="http://sw.edu/#STANOWISKO" />
+      <rdf:type rdf:resource="http://sw.edu/#NAZWA_FIRMY" />
+      <rdf:type rdf:resource="http://sw.edu/#ADRES_EMAIL" />
+      <rdf:type rdf:resource="http://sw.edu/#TELEFON_KONTAKTOWY" />
+      <rdf:type rdf:resource="http://sw.edu/#ADRES_FIRMY" />
+      <rdf:type rdf:resource="http://sw.edu/#LOGO" />
+      <rdf:type rdf:resource="http://sw.edu/#KOD_POCZTOWY" />
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://sw.edu/#OSOBA">
+      <rdf:type rdf:resource="http://sw.edu/#IMIĘ" />
+      <rdf:type rdf:resource="http://sw.edu/#NAZWISKO" />
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://sw.edu/#FIRMA">
+      <rdf:type rdf:resource="http://sw.edu/#LOKALIZACJA" />
+      <rdf:type rdf:resource="http://sw.edu/#LOGO" />
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://sw.edu/#LOKALIZACJA">
+      <rdf:type rdf:resource="http://sw.edu/#ULICA" />
+      <rdf:type rdf:resource="http://sw.edu/#NUMER" />
+      <rdf:type rdf:resource="http://sw.edu/#KOD_POCZTOWY" />
+      <rdf:type rdf:resource="http://sw.edu/#NAZWA_MIEJSCOWOŚCI" />
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://sw.edu/#MIEJSCOWOŚĆ">
+      <rdf:type rdf:resource="http://sw.edu/#NAZWA_MIEJSCOWOŚCI" />
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://sw.edu/#PRACOWNIK">
+      <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntaxns#Property" />
+      <rdf:type rdf:resource="http://sw.edu/#STANOWISKO" />
+      <rdf:type rdf:resource="http://sw.edu/#ADRES_EMAIL" />
+      <rdf:type rdf:resource="http://sw.edu/#TELEFON_KONTAKTOWY" />
+      <rdfs:domain rdf:resource="http://sw.edu/#OSOBA" />
+      <rdfs:range rdf:resource="http://sw.edu/#FIRMA" />
+   </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="info.css"?>
+<wizytownik>
+   <wizytowka>
+      <imie>Amadeusz</imie>
+      <nazwisko>Kowalski</nazwisko>
+      <stanowisko>kierownik</stanowisko>
+      <nazwa_firmy>UAM</nazwa_firmy>
+      <adres_email>pracwonik1@gmail.com</adres_email>
+      <telefon_kontaktowy>602859681</telefon_kontaktowy>
+      <adres_firmy>ul. Prosta 32, Poznań</adres_firmy>
+      <kod_pocztowy>42-200</kod_pocztowy>
+      <logo>logo.jpg</logo>
+   </wizytowka>
+   <wizytowka>
+      <imie>Jan</imie>
+      <nazwisko>Nowak</nazwisko>
+      <stanowisko>wykładowca</stanowisko>
+      <nazwa_firmy>UAM</nazwa_firmy>
+      <adres_email>pracownik2@gmail.com</adres_email>
+      <telefon_kontaktowy>602859681</telefon_kontaktowy>
+      <adres_firmy>ul. Prosta 32, Poznań</adres_firmy>
+      <kod_pocztowy>42-200</kod_pocztowy>
+      <logo>logo.jpg</logo>
+   </wizytowka>
+   <wizytowka>
+      <imie>Stefan</imie>
+      <nazwisko>Rogacz</nazwisko>
+      <stanowisko>konsultant</stanowisko>
+      <nazwa_firmy>UAM</nazwa_firmy>
+      <adres_email>pracownik3@gmail.com</adres_email>
+      <telefon_kontaktowy>602859681</telefon_kontaktowy>
+      <adres_firmy>ul. Prosta 32, Poznań</adres_firmy>
+      <kod_pocztowy>42-200</kod_pocztowy>
+      <logo>logo.jpg</logo>
+   </wizytowka>
+</wizytownik>
